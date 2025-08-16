@@ -14,7 +14,8 @@ endif()
 # VERSION must be up to 4 groups of digits separated by a period.
 # major.90 are alpha releases
 # major.95 are beta releases
-project(OpenBoardView VERSION 9.95.1)
+# The fourth group of digit means fork subversion
+project(OpenBoardView VERSION 9.95.1.0)
 
 # Include our project variables
 include("version.cmake")
